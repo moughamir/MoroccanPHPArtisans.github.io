@@ -5,7 +5,8 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  /*font-family: "PT Sans", Helvetica, Arial, sans-serif;*/  
+  font-family: 'Lato', Helvetica, Arial, sans-serif;  
 }
 @media (min-width: 48rem) {
   html {
@@ -32,6 +33,7 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
+
 @media (min-width: 48rem) {
   .sidebar {
     position: fixed;
@@ -220,4 +222,39 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+/* Moroccan PHP Artisans Theme */
+.theme-base-mpa .sidebar {
+  background-color: #E67D3B;
+}
+
+.theme-base-mpa .content a,
+.theme-base-mpa .related-posts li a:hover {
+  color: #E67D3B;
+}
+
+/*.theme-base-mpa .content a i {
+  color: #623B1C;
+}*/
+
+.theme-base-mpa h1, 
+.theme-base-mpa h2, 
+.theme-base-mpa h3, 
+.theme-base-mpa h4, 
+.theme-base-mpa h5,
+.theme-base-mpa h6 {
+  color: #623B1C;
+}
+
+.theme-base-mpa .sidebar {
+  color: #623B1C;
+}
+
+.theme-base-mpa .sidebar a {
+  color: #623B1C;
+}
+
+.theme-base-mpa .sidebar-about h1 {
+  color: #623B1C;
 }
