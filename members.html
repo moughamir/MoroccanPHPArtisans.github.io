@@ -4,7 +4,22 @@ title: Members
 ---
 {% for member in site.data.members %}
 	<h3>{{ member.name }}</h3>
-	<a target="_blank" href="https://github.com/{{ member.github }}">Github</a>/
-	<a target="_blank" href="https://www.twitter.com/{{ member.twitter }}">Twitter</a>/
-	<a href="mailto:{{ member.email }}">Email</a>
+	<a target="_blank" href="https://github.com/{{ member.github }}">
+        <i class="fa fa-github"></i>
+        Github
+    </a> /
+	<a target="_blank" href="https://www.twitter.com/{{ member.twitter }}">
+        <i class="fa fa-twitter"></i>
+        Twitter
+    </a> /
+    <a href="mailto:{{ member.email }}">
+        <i class="fa fa-envelope"></i>
+        Email
+    </a>
+    {% if member.website %}
+	   / <a target="_blank" href="{{ member.website }}">
+            <i class="fa fa-globe"></i>
+            Website
+        </a>
+    {% endif %}
 {% endfor %}

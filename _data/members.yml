@@ -2,8 +2,16 @@
   github: alaouy
   twitter: alaouym
   email: alaouym@gmail.com
-- name: nom
-  github: nom
-  twitter: nom
-  email: nom@gmail.com
-  website: nom.com
+  website: http://alaouy.com/
+
+- name: Motaquillah Maddane
+  github: kronik3r
+  twitter: thekroniker
+  email: maddane.info@gmail.com
+
+# Use this template to add your Informations
+#- name: nom
+#  github: nom
+#  twitter: nom
+#  email: nom@gmail.com
+#  website: nom.com
