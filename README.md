@@ -22,4 +22,4 @@ Create a new entry on the `/_data/members.yml` file. You can use this as a templ
 The following elements are obligatory : `name`, `github`, `twitter` and `email`.
 
 #### Do some magic : 
-If you want to unleash the website powers, plese refer to the **Big** book of secrets [Jekyll's documentation](http://jekyllrb.com/docs/home/).
+If you want to unleash the website powers, please refer to the **Big** book of secrets [Jekyll's documentation](http://jekyllrb.com/docs/home/).
