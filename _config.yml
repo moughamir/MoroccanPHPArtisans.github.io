@@ -1,0 +1,21 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        /blog/:categories/:year/:month/:day/:title.html
+
+# Setup
+title:            Moroccan PHP Artisans
+tagline:          'Web Dev User Group'
+url:              http://moroccanphpartisans.github.io
+email: 			  'alaouym@gmail'
+paginate:         5
+paginate_path: 	  "/blog/page:num"
+
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/MoroccanPHPArtisans/moroccanphpartisans.github.io

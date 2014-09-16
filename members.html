@@ -1,0 +1,10 @@
+---
+layout: page
+title: Members
+---
+{% for member in site.data.members %}
+	<h3>{{ member.name }}</h3>
+	<a target="_blank" href="https://github.com/{{ member.github }}">Github</a>/
+	<a target="_blank" href="https://www.twitter.com/{{ member.twitter }}">Twitter</a>/
+	<a href="mailto:{{ member.email }}">Email</a>
+{% endfor %}
