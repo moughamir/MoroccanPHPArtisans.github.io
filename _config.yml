@@ -7,9 +7,9 @@ permalink:        /blog/:categories/:year/:month/:day/:title.html
 
 # Setup
 title:            Moroccan PHP Artisans
-tagline:          'Web Dev User Group'
+tagline:          'PHP User Group'
 url:              http://moroccanphpartisans.github.io
-email: 			  'alaouym@gmail'
+email: 			  'mphpartisans@gmail.com'
 paginate:         5
 paginate_path: 	  "/blog/page:num"
 
