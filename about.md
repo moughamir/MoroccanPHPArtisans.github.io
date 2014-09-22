@@ -16,6 +16,6 @@ We seek to:
 * Improve the Moroccan web community.
 
 
-We haven't set up a date for our regular meet-ups yet, but **it is coming up soon**. Stay tuned! 
+We haven't set up a date for our regular meet-ups yet, but **it is coming up soon**. [Stay tuned!]({{site.data.social.meetup}}) 
 
 If you have any questions or suggestions, feel free to [drop us an email](mailto:mphpartisans@gmail.com).
