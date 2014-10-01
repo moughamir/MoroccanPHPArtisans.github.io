@@ -31,7 +31,8 @@
         {% endif %}
       {% endfor %}
       
-      <li class="sidebar-nav-item"><a href="/blog">Blog</a></li>
+      <li class="sidebar-nav-item {% if page.url == '/emailing.html' %} active {% endif %}"><a href="/emailing.html">Emailing list</a></li>
+      <li class="sidebar-nav-item {% if page.url == '/blog/index.html' %} active {% endif %}"><a href="/blog">Blog</a></li>
       <li class="sidebar-nav-item"><a href="{{ site.github.repo }}">GitHub</a></li>
     </ul>
     
