@@ -9,9 +9,7 @@ permalink:        /blog/:categories/:year/:month/:day/:title.html
 title:            Moroccan PHP Artisans
 tagline:          'PHP User Group'
 url:              http://moroccanphpartisans.github.io
-email: 			  'mphpartisans@gmail.com'
-paginate:         5
-paginate_path: 	  "/blog/page:num"
+email: 			  		'mphpartisans@gmail.com'
 
 
 # Custom vars
