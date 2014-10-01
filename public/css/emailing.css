@@ -1,0 +1,122 @@
+/* Input */ 
+.input-txt {
+    border: 2px solid #643C19;
+    color: #643C19;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 10px;        
+    text-indent: 6px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: border .25s linear, color .25s linear;
+    -moz-transition: border .25s linear, color .25s linear;
+    -o-transition: border .25s linear, color .25s linear;
+    transition: border .25s linear, color .25s linear;
+    -webkit-backface-visibility: hidden;
+}
+
+.input-txt:focus
+{
+    border-color:#E67D3B;
+    outline: none;
+}
+
+/* Buttons */
+.btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 10px 80px;
+    display: inline-block;
+    margin: 15px 30px;        
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    background: #E67D3B;
+    color: #fff;
+    box-shadow: 0 6px #ab3c3c;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    border-radius: 5px;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn:before {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+
+.btn:hover {
+    box-shadow: 0 4px #ab3c3c;
+    top: 2px;
+}
+
+.btn:active {
+    box-shadow: 0 0 #ab3c3c;
+    top: 6px;
+}
+
+/* Page styling */
+.subcribe-form {
+    text-align:center;
+}
+
+.subcribe-form-entry {
+    margin:15px 0;
+}
+
+.subcribe-form .input-txt {
+    width:100%;
+}
+
+.col-container {
+    margin:40px 0;
+}
+
+.col {
+    width:45%;
+    margin-left:5%;
+    display: inline-block;
+    vertical-align: top;     
+}
+
+.col > ul {
+    padding:0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.highlight {
+    color: #E67D3B;
+    font-weight: bold;
+}
+
+.ps {
+    text-align:center;
+    font-size:16px;
+    margin-top:0;
+}
