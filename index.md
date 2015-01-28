@@ -5,7 +5,7 @@ title: Home
 
 # Moroccan PHP Artisans
 
-The Moroccan web scene has made a huge step forward to becoming more mature. With the launch of many big and medium web projects and the IT startup philosophy starting to get hold in the country, the demand for talented web developers up to the challenge is higher then never.
+The Moroccan web scene has made a huge step forward to becoming more mature. With the launch of many big and medium web projects and the IT startup philosophy starting to get hold in the country, the demand for talented web developers up to the challenge is higher than ever.
 
 Such progress needs people to maintain it, push it even further, and keep it on the right path through open debates, meet-ups and conferences, promoting new technologies, modern tools and best practices.
 
