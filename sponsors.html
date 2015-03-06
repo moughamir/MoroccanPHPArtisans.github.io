@@ -3,13 +3,13 @@ layout: page
 title: Sponsors
 ---
 
-<h1>Some of the folks who support our community.</h1>
-<p>These are the businesses that have given back to the community for our monthly meetings.</p>
-
-<p>If you'd like to sponsor a meeting to promote your product/service or get the word out that your hiring then it's as easy as posting "Hi all, I'd like to sponsor one of the meetings." to the <a href="mailto:{{ site.email }}">mailing List</a>.</p>
-
+<h1>The folks who support us.</h1>
 
 {% for sponsor in site.data.sponsors %}
 	<h2>{{ sponsor.name }}</h2>
 	<a href="{{ sponsor.link }}"><img src="/images/{{ sponsor.logo }}"/></a>
 {% endfor %}
+
+<br>
+<hr>
+<p>If you'd like to sponsor a meeting to promote your product/service or get the word out that your hiring then it's as easy as posting "Hi all, I'd like to sponsor one of the meetings." to the <a href="mailto:{{ site.email }}">mailing List</a>.</p>
